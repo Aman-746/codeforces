@@ -1,0 +1,138 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  width: 90%;
+  margin: auto;
+}
+.top-left{
+  display: inline-block;
+  margin: 3px 10px;
+  padding: 5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-left h3{
+  margin-top: -30px;
+  font-size: 14px;
+  margin-left: 67px;
+}
+.top-left h1 span{
+  color: blue;
+}
+.top-right{
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  padding: 5px 5px;
+}
+.enter-btn{
+  display: inline-block;
+}
+.register-btn{
+  display: inline-block;
+}
+nav{
+  width: 90%;
+  margin: auto;
+  line-height: 40px;
+  margin-top: -10px;
+  border: 2px solid rgb(150, 147, 147);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.item{
+  display: grid;
+  grid-template-columns:repeat(12, 1fr);
+}
+.item div{
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.search{
+  position: relative;
+}
+.search input{
+   width: 200px;
+   line-height: 20px;
+   position: absolute;
+   right: 10px;
+   top:8px;
+}
+.item1{
+  margin: 40px 62px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para1{
+  font-weight: bold;
+  font-size: 15px;
+}
+.para2{
+  font-size: 15px;
+}
+.form{
+  display: grid;
+  border: 2px solid rgb(146, 143, 143);
+  width: 30%;
+  height: 275px;
+  margin: auto;
+  grid-template-rows: 1fr 5fr 1fr;
+  border-radius: 5px;
+  /* line-height: center; */
+  /* align-items: center; */
+}
+.blue{
+  color: blue;
+  margin: auto 6px;
+  font-weight: bold;
+}
+.mid{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:10px;
+
+
+
+}
+
+.inbox{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.pass{
+  position: relative;
+  left : 6px;
+}
+
+.bottom{
+  position: relative;
+}
+.bottom a{
+  position: absolute;
+  right: 8px;
+  top: 12px;
+}
+.password{
+  position: relative;
+}
+.password a{
+  position: absolute;
+  right: -50px;
+  top: -12px;
+}
+.btn{
+  margin: auto 20px;
+}
+footer{
+  display: grid;
+  width: 30%;
+  margin: 10px auto;
+}
+.fmid{
+  margin: -25px 20px;
+}
